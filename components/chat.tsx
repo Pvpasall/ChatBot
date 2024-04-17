@@ -24,7 +24,7 @@ export default async function Chat() {
 
         <form onSubmit={handleSubmit}>
           <input
-            className="fixed bottom-0 w-full max-w-md p-2 mb-8 border border-gray-300 rounded shadow-xl"
+            className="fixed bottom-0 w-full max-w-md p-2 mb-8 border border-gray-300 rounded shadow-xl text-black" // Added "text-black" to change input color to black
             value={input}
             placeholder="Say something..."
             onChange={handleInputChange}
